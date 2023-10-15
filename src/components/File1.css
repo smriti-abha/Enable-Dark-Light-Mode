@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    text-decoration: solid;
+    background-color: bisque;
+    width: 50%;
+
+}
+
+.allBlock{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width:50%;
+    border:5px solid black;
+   padding:10px;
+   margin:10px;
+   overflow: scroll;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5px;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
